@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Responsive.css">
+    <title>Mi portafolio</title>
+  </head>
+  <body>
+
+   <main>
+    <header>
+      <!-- Imagenes para agregar al fondo -->
+      <div class="overlay overlay-lg">
+
+        <img src="./img/shapes/square.svg" class="shape square" alt="" />
+
+        <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+
+        <img
+
+          src="./img/shapes/half-circle.svg"
+
+          class="shape half-circle1"
+
+          alt=""
+
+        />
+
+        <img
+
+          src="./img/shapes/half-circle.svg"
+
+          class="shape half-circle2"
+
+          alt=""
+
+        />
+
+        <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+
+        <img src="./img/shapes/wave.svg" class="shape wave wave1" alt="" />
+
+        <img src="./img/shapes/wave.svg" class="shape wave wave2" alt="" />
+
+        <img src="./img/shapes/triangle.svg" class="shape triangle" alt="" />
+
+        <!-- <img src="./img/shapes/circles.svg" class="circles" alt="" /> -->
+
+        <img src="./img/shapes/points1.svg" class="points points1" alt="" />
+
+      </div>
+      <!-- Fin Imagenes para agregar al fondo -->
+
+  <!-- Barra de navegación principal -->
+    <nav>
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+             <!-- <a href="index.html">J<span>S</span></a> -->
+             <img src="./img/portfolio/GEOAVALUO 1.png" alt="Logo GeoAvalúos"/>
+
+          </div>
+        </a>
+
+          <div class="links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#portfolio">Portafolio</a></li>
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#contact">Contácto</a></li>
+              <li><a href="https://wa.me/+573154310410"target="_blank" class="active">WhatsApp</a></li>
+            </ul>
+
+          </div>
+
+          <div>
+
+  <!-- Menu hamburguesa para agregar en movil -->
+          </div class="hamburguer-menu">
+            <div class="bar"></div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Sebastián <span>Ruiz</span></h1>
+            <p class="texto">Hola soy Jhon Sebastián Ruiz Mosquera, Administrador Ambiental y estudiante de Desarrollo de Software. 
+              Con 53 meses de experiencia profesional y Especialización Tecnológica en Implementación de Sistemas de Información Geográfica.
+            </p>
+            <!-- Boton de descarga de CV -->
+            <a href="https://drive.google.com/file/d/1poLTSNo1udLlLc-RHeEY8Hu0OkXSxN-g/view?usp=sharing"
+            target="_blank"
+            > 
+              
+              <button class="btn">Descargar CV</button>
+            </a>
+
+          </div>
+          <div class="column-2 image">
+            <!-- <img src="./img/shapes/points2.svg" class ="" alt=""> -->
+            <img src="./img/person.png" class="img-e" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <!-- Sección de servicios -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Lo que hago">Servicios</h3>
+        <p class="text">
+          Nuestra empresa es una firma consultora que ofrece servicios en sistemas de información geográfica, 
+          avalúos y asesoramiento ambiental. Operamos a nivel nacional, con oficinas principales en Pereira, Risaralda,        <!-- Modificar de acuerdo a su proyecto -->
+          y La Plata, Huila. contamos con un equipo altamente capacitado y comprometido, conformado por profesionales expertos
+          en cada una de las áreas que abarcamos.
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="card-wrap">
+          <img
+            src="./img/shapes/points3.svg"
+            class="points points1 points-sq"
+            alt=""
+          />
+          <div class="card" data-card="UI/UX" id="CARTOGRAFÍA">
+            <div class="card-content z-index">
+              <img src="./img/cartografia.png" class="icon" alt="Cartografía" />
+              <h3 class="title-sm">CARTOGRAFÍA</h3>
+              <p class="text">
+                En nuestra empresa, nos especializamos en la creación y actualización de cartografía para diversos ámbitos y escalas 
+                utilizando procesos de restitución fotogramétrica digital. Contamos con los recursos necesarios para llevar a cabo proyectos   <!-- Modificar de acuerdo a su proyecto -->
+                cartográficos de pequeña y mediana escala, abarcando todas las fases del proceso productivo de manera integral.
+              </p>
+              <a href="#" class="btn small">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrap">
+          <div class="card" data-card="Code" id="AVALÚOS">
+            <div class="card-content z-index">
+              <img src="./img/finanzas.png" class="icon" alt="Logo de Avalúos" />
+              <h3 class="title-sm">AVALÚOS</h3>
+              <p class="text">
+                Somos una empresa especializada en la tasación de inmuebles urbanos y rurales. 
+                Elaboramos avalúos confiables y de la más alta calidad para entidades financieras                 <!-- Modificar de acuerdo a su proyecto -->
+                y personas naturales. Nuestro equipo humano y ético está capacitado con los últimos 
+                avances tecnológicos y metodologías valuatorias, garantizando así la precisión y exactitud
+                de nuestros servicios.
+              </p>
+              <a href="#" class="btn small">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrap">
+          <img
+            src="./img/shapes/points3.svg"
+            class="points points2 points-sq"
+            alt=""
+          />
+          <div class="card" data-card="App" id="BASE DE DATOS">
+            <div class="card-content z-index">
+              <img src="./img/Base_Datos.png" class="icon" alt="Base de Datos SIG" />
+              <h3 class="title-sm">BASE DE DATOS GEOGRÁFICA</h3>
+              <p class="text">
+                Nuestra empresa se especializa en la creación y desarrollo de bases de datos geográficas personalizadas.                        <!-- Modificar de acuerdo a su proyecto -->
+                Contamos con un equipo altamente capacitado en el manejo de tecnologías geoespaciales de vanguardia y metodologías 
+                agiles. Nuestra experiencia abarca una amplia gama de sectores; planificación urbana, gestión territorial,
+                análisis ambientales y aplicaciones móviles SIG.
+              </p>
+              <a href="#" class="btn small">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section class="portfolio section" id="portfolio">
+    <div class="background-bg">
+      <div class="overlay overlay-sm">
+        <img
+          src="./img/shapes/half-circle.svg"
+          class="shape half-circle1"
+          alt=""
+        />
+        <img
+          src="./img/shapes/half-circle.svg"
+          class="shape half-circle2"
+          alt=""
+        />
+        <img src="./img/shapes/square.svg" class="shape square" alt="" />
+        <img src="./img/shapes/wave.svg" class="shape wave" alt="" />
+        <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+        <img
+          src="./img/shapes/triangle.svg"
+          class="shape triangle"
+          alt=""
+        />
+        <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Mis proyectos">Portafolio</h3>
+      </div>
+
+      <div class="section-body">
+        <div class="filter button-group">
+          <button class="filter-btn active" data-filter="*">Todo</button>
+          <!-- <button class="filter-btn" data-filter=".ui">UI/UX</button> -->
+          <button class="filter-btn" data-filter=".webdev">AVALÚOS</button>
+          <button class="filter-btn" data-filter=".appdev">CARTOGRAFÍA</button>
+          <button class="filter-btn" data-filter=".logo-design">BASE DE DATOS GEOGRÁFICA
+           </button>
+        </div>
+
+        <div class="grid">
+          <div class="grid-item logo-design">
+            <div class="gallery-image">
+              <img src="./img/portfolio/Avaluos_1.jpeg" alt="Avalúos de Servidumbres" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>AVALÚOS</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item webdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/Avaluos_2.jpeg" alt="Avalúos Urbanos" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>AVALÚOS</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui webdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/Avaluos_3.jpeg" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>AVALÚOS</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui">
+            <div class="gallery-image">
+              <img src="./img/portfolio/UI_UX2.jpeg" alt="Servicios Integrales" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Servicios Integrales</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item logo-design">
+            <div class="gallery-image">
+              <img src="./img/portfolio/Carto_2.jpeg" alt="Mapa Planimétrico" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>CARTOGRAFÍA</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item appdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/Carto_1.jpeg" alt="Ortofotomosaico" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>CARTOGRAFÍA</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item logo-design">
+            <div class="gallery-image">
+              <img src="./img/portfolio/DB_1.jpeg" alt="Base de Datos Avalúos" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>BASE DE DATOS GEOGRÁFICA</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item appdev ui">
+            <div class="gallery-image">
+              <img src="./img/portfolio/DB_2.jpeg" alt="Base de Datos ANLA" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>BASE DE DATOS GEOGRÁFICA</h3>
+                  <h5>Ver demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="gallery-image">
+            <video width=100%  height=240px controls poster="./img/portfolio/poster_video.jpeg">
+            <source src="./img/portfolio/UI_UX1.mp4" type="video/mp4">
+                  </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-folio">
+          <a href="#" class="btn">Mas proyectos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Sección blog y testimonios -->
+
+   <section class="blog section">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Últimos post">Mi Blog</h3>
+        <p class="text">
+          Bienvenido a nuestro blog, donde encontrarás un mundo fascinante de cartografía, 
+          avalúos y sistemas de información geográfica (SIG). Ya seas un entusiasta de los mapas,            <!--Modificar de acuerdo a su proyecto-->    
+          un profesional del sector inmobiliario o simplemente alguien curioso acerca de cómo la geografía
+          se entrelaza con nuestras vidas, este espacio está diseñado para ti.
+        </p>
+      </div>
+
+      <div class="blog-wrapper">
+        <div class="blog-wrap">
+          <img
+            src="./img/shapes/points3.svg"
+            alt=""
+            class="points points-sq"
+          />
+
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="./img/CasoSIG.jpg" alt="Caso de aplicacion de los SIG" />
+            </div>
+
+            <div class="blog-content">
+              <div class="blog-info">
+                <h5 class="blog-date">Junio, 22 2023</h5>
+                <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+              </div>
+              <h3 class="title-sm">Los SIG como Impulsadores de Ventas</h3>
+              <p class="blog-text">
+                En el sector Retail los Sistemas de Información Geográfica (SIG),             <!--Modificar de acuerdo a su proyecto--> 
+                perminte realcionar información de vendedores, estrato de los consumidores, 
+                gastos de suministros, optimizar rutas y reducir costos de operaciones a través de patrones geográficos.
+              </p>
+              <a href="#" class="btn small">Leer más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-wrap">
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="./img/ICDE.jpg" alt="Infraestructura Colombiana de Datos Espaciales -ICDE" />
+            </div>
+
+            <div class="blog-content">
+              <div class="blog-info">
+                <h5 class="blog-date">Agosto, 1 2023</h5>
+                <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+              </div>
+              <h3 class="title-sm">Plataforma ICDE</h3>
+              <p class="blog-text">
+                La plataforma ICDE permite disponer a los colombianos todos los recursos             <!--Modificar de acuerdo a su proyecto--> 
+                de infraestructura de datos espaciales del país, como la central de consulta 
+                y abastecimiento de los servicios y herramientas geoespaciales útiles para realizar
+                análisis geográfico estratégico del territorio nacional.
+              </p>
+              <a href="#" class="btn small">Leer más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-wrap">
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="./img/Avaluos.jpg" alt="Avalúos 2023" />
+            </div>
+
+            <div class="blog-content">
+              <div class="blog-info">
+                <h5 class="blog-date">Enero, 17 2023</h5>
+                <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+              </div>
+              <h3 class="title-sm">Avalúos Catastrales Vigencia 2023</h3>
+              <p class="blog-text">
+                El Departamento Nacional de Planeación (DNP) informó que el incremento 
+                de los avalúos catastrales para los predios urbanos no formados y no actualizados
+                en la vigencia 2023, será del 4,31 % y para los predios rurales no formados y no 
+                actualizados en la vigencia 2023, del 3%.
+              </p>
+              <a href="#" class="btn small">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Qué dicen de nosotros">
+          Testimonios
+        </h3>
+      </div>
+
+      <div class="testi-content grid-2">
+        <div class="column-1 reviews">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Su equipo de expertos nos brindó soluciones innovadoras y precisas
+                  para nuestros proyectos de planificación urbana. Los mapas detallados
+                  y los análisis geoespaciales han sido fundamentales para tomar decisiones
+                  informadas de nuestra organización.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Fernando Gutierrez</h3>
+                  <h5 class="review-job">Consultora Ambiental, Cali</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  La compañia GeoAvalúos nos ha ayudado a optimizar nuestros procesos logísticos 
+                  de una manera impresionante. Con su plataforma de seguimiento geoespacial, 
+                  hemos podido mejorar la eficiencia de nuestra flota de transporte y reducir costos significativamente.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Rodigo Gonzalez</h3>
+                  <h5 class="review-job">Trasportadora del Sur, Huila</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Los servicios de avalúos proporcionados por esta empresa 
+                  superaron nuestras expectativas. Su equipo de profesionales 
+                  altamente calificados realizó una evaluación exhaustiva y precisa
+                  de nuestros activos inmobiliarios, brindándonos información vital 
+                  para la toma de decisiones financieras.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Inmobiliaria del Café</h3>
+                  <h5 class="review-job">Director Juan Diego Perez, Pereira</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Como arquitecto, he trabajado con muchos proveedores de servicios SIG, 
+                  pero esta empresa se destaca por encima del resto. Su conocimiento profundo
+                  y su enfoque orientado al cliente nos permitieron desarrollar proyectos arquitectónicos 
+                  innovadores y eficientes. Estoy muy satisfecho con los resultados obtenidos.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Andres Gómez</h3>
+                  <h5 class="review-job">Arquitecto, Medellín</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-nav swiper-button-prev">
+              <i class="fas fa-long-arrow-alt-left"></i>
+            </div>
+            <div class="review-nav swiper-button-next">
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-2 image">
+          <img src="./img/testi.svg" alt="" class="img-element" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Sección de contacto -->
+    <section class="contact" id="contact">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63612.754230911545!2d-75.75504728260691!3d4.804858840041822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388748eb56c1fd%3A0x95b39410f9f1dfbc!2sPereira%2C%20Risaralda!5e0!3m2!1ses!2sco!4v1690923708705!5m2!1ses!2sco" 
+        width="100%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3 class="title">Ponte en contacto</h3>
+            <p class="text">
+              Estamos entusiasmados de seguir creciendo y contribuyendo al desarrollo sostenible de nuestro país.       <!-- Modificar de acuerdo a su proyecto -->
+              Contáctenos hoy mismo y permítanos demostrarle cómo podemos marcar la diferencia en sus proyectos y objetivos. 
+              ¡Estamos aquí para ayudarlo en todas sus necesidades específicas!
+            </p>
+            <div class="information-wrap">
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p class="info-text">Pereira, Colombia</p>
+              </div>
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+  
+                <p class="info-text">+573154310410</p>
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <p class="info-text">jhonruiz094@gmail.com</p>
+              </div>
+              </div>
+            </div>
+  
+              </div>
+              <form class="contact-form">
+                <h3 class="title">Contáctame</h3>
+                <div class="row">
+                  <input 
+                  type="text" 
+                  class="contact-input" 
+                  name="Nombre" 
+                  placeholder="Ingresa su nombre"
+                  />
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="Ingresa su apellido"
+                  />
+                </div>
+                <div class="row">
+                  <input
+                    type="text"
+                    class="contact-input"
+                    name="celular"
+                    placeholder="Ingresa su celular"
+                  />
+                  <input 
+                  type="email"
+                  class="contact-input"
+                  name="email"
+                  placeholder="Ingresa su email"
+                  >
+                  </div>  
+  
+                <div class="row">
+                    <textarea
+                      name="message"
+                      class="contact-input textarea"
+                      placeholder="Mensaje"
+                    ></textarea>
+                  </div>
+                  <a href="#" class="btn">Enviar</a>
+                  </form>
+          </div>
+        </div>
+      </div>    
+    </section>
+    <section class="hireme" id="hireme">
+          <div class="container">
+            <h3 class="title">Hablemos de tu proyecto</h3>
+            <p class="text">
+              Estamos comprometidos con el crecimiento y desarrollo de nuestros clientes, y eso se refleja en nuestra amplia gama de servicios          <!-- Modificar de acuerdo a su proyecto -->
+              y soluciones personalizadas. Entendemos que cada cliente es único y, por lo tanto, adaptamos nuestros enfoques para ofrecer resultados
+              óptimos.   
+            </p>
+            <a href="https://wa.me/+573154310410" target="_blank" class="btn"
+              >WhatsApp</a
+            >
+    </section>
+  </main>
+    <!-- Sección pie de página footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Somos un equipo apasionado y comprometido que se dedica a proporcionar soluciones especializadas
+              en las áreas de cartografía, avalúos y sistemas de información geográfica (SIG). Únete a nosotros
+              y descubre cómo podemos ayudarte a aprovechar al máximo tus datos.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#CARTOGRAFÍA">CARTOGRAFÍA</a>
+              </li>
+              <li>
+                <a href="#AVALÚOS">AVALÚOS</a>
+              </li>
+              <li>
+                <a href="#BASE DE DATOS">BASE DE DATOS GEOGRÁFICA</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+            ¡Suscríbete a nuestro boletín de noticias para recibir todas nuestras actualizaciones sobre productos y servicios! 
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 Todos los derechos reservados | Hecho por
+              <span class="split-text" data-text="FORUM"
+                ><a href="#">Sebastián Ruiz </a></span
+              >
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
